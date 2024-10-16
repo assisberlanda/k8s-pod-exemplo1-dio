@@ -54,3 +54,10 @@
     	   nodePort: 30005
 ## Encaminhamento de porta
 	kubectl port-forward pod/mysql-pod 3306:3306
+## 🌎 Google Cloud
+#### Desabilitar Firewall da porta para o Deployment
+	gcloud compute firewall-rules list
+ 	gcloud compute firewall-rules create backend --allow tcp:30005
+ 
+ 
+ ✅🆑💡❇️📌🧩☁️🌎
