@@ -1,4 +1,5 @@
- # Para excluir o Load Balancer e Criar um em YAML
+# ☸️ Kubernetes
+### Para excluir o Load Balancer e Criar um em YAML
  	kubectl get service
   	kubectl delete service app-html
 ### Arquivo YAML
@@ -58,6 +59,3 @@
 #### Desabilitar Firewall da porta para o Deployment
 	gcloud compute firewall-rules list
  	gcloud compute firewall-rules create backend --allow tcp:30005
- 
- 
- ✅🆑💡❇️📌🧩☁️🌎
